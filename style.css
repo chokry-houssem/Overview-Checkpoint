@@ -1,0 +1,43 @@
+h3{
+    color:rgb(124, 141, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table-login{
+    width:50rem;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+input{
+    outline: 0;
+    background: none;
+    font-size:15px;
+    color:#fff;
+    text-align: center;
+    width: 265px;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2.5px solid #d7f4f7;
+    border-radius: 25px;
+    translate: 0.5s;
+    transition-property: width;
+} 
+input:hover{
+    width: 300px;
+}
+ input:focus{
+    width: 300px;
+}
+button{
+    outline: 0;
+    background: none;
+    color: rgb(49, 158, 201);
+    font-size: 16px;
+    width: 150px;
+    padding: 8px;
+    border: 2.5px solid rgb(236, 192, 230);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
